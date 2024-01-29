@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.star-wars-logo {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  animation: spin 6s linear infinite; /* Spin animation */
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 15px;
+  border: 2px solid gold;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background-color: gold;
+  color: black;
+}
+
+.nav-links a:link,
+.nav-links a:visited,
+.nav-links a:hover,
+.nav-links a:active {
+  color: gold; /* Apply golden color to the font */
+}
+

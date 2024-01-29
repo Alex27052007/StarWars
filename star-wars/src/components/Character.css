@@ -1,0 +1,26 @@
+.character {
+  display: flex;
+  flex-direction: row;
+  background-color: ghostwhite;
+  padding: 2px;
+  margin: 2px 0;
+  border-radius: 5px;
+  width: 600px;
+}
+
+.name {
+  background-color: #000; /* Gold */
+  padding: 5px;
+  border-radius: 3px;
+  margin: 2px;
+  width: 100%;
+}
+
+.details {
+  background-color: #0865b1; /* SteelBlue */
+  padding: 5px;
+  border-radius: 3px;
+  margin: 2px;
+  color: #fff; 
+  width: 100%;
+}

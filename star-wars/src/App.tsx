@@ -1,5 +1,4 @@
 // Import necessary components and dependencies
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import PlanetList from './components/PlanetList';
 import CharacterList from './components/CharacterList';
